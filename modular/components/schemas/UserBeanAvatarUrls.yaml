@@ -1,5 +1,9 @@
 type: object
 properties:
+  16x16:
+    type: string
+    description: The URL of the user's 16x16 pixel avatar.
+    format: uri
   24x24:
     type: string
     description: The URL of the user's 24x24 pixel avatar.
@@ -7,10 +11,6 @@ properties:
   32x32:
     type: string
     description: The URL of the user's 32x32 pixel avatar.
-    format: uri
-  16x16:
-    type: string
-    description: The URL of the user's 16x16 pixel avatar.
     format: uri
   48x48:
     type: string

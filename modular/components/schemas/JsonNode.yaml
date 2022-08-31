@@ -8,10 +8,12 @@ properties:
     type: object
   'null':
     type: boolean
-  floatingPointNumber:
-    type: boolean
   elements:
     type: object
+  containerNode:
+    type: boolean
+  valueNode:
+    type: boolean
   pojo:
     type: boolean
   number:
@@ -34,13 +36,11 @@ properties:
     type: boolean
   binary:
     type: boolean
-  containerNode:
+  object:
     type: boolean
   missingNode:
     type: boolean
-  object:
-    type: boolean
-  valueNode:
+  floatingPointNumber:
     type: boolean
   numberValue:
     type: number

@@ -12,13 +12,13 @@ properties:
       type: string
   simplified:
     type: boolean
+  boardId:
+    type: integer
+    format: int64
   boardName:
     type: string
   simpleBoard:
     type: boolean
-  boardId:
-    type: integer
-    format: int64
   queueId:
     type: integer
     format: int64

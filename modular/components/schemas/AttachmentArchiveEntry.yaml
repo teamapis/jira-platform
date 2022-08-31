@@ -1,5 +1,10 @@
 type: object
 properties:
+  abbreviatedName:
+    type: string
+  entryIndex:
+    type: integer
+    format: int64
   name:
     type: string
   size:
@@ -7,9 +12,4 @@ properties:
     format: int64
   mediaType:
     type: string
-  abbreviatedName:
-    type: string
-  entryIndex:
-    type: integer
-    format: int64
 additionalProperties: false
