@@ -2,9 +2,9 @@ type: object
 properties:
   empty:
     type: boolean
+  valueSet:
+    type: boolean
   emptyAdf:
     type: boolean
   finalised:
-    type: boolean
-  valueSet:
     type: boolean
